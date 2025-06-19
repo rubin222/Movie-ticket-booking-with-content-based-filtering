@@ -1,0 +1,158 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #141e30;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgba(223, 218, 218, 0.8);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 10px 75px;
+}
+
+.part1 {
+  color: blue;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.part2 {
+  color: red;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.admin-title {
+  flex: 1;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+.container, .container1 {
+  width: 80%;
+  margin: auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="text"], input[type="file"] {
+  width: 90%;
+  padding: 15px;
+  font-size: 18px;
+  margin: 15px 0;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  background-color: white;
+  color: black;
+}
+
+button {
+  width: 50%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #e7ebf0;
+  border: 2px solid black;
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+table th {
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+}
+
+table td {
+  font-size: 16px;
+  color: black;
+}
+
+.showtime-btn {
+  background: none;
+  border: 2px solid #3ba7ff;
+  color: #3ba7ff;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.showtime-btn:hover {
+  background-color: #3ba7ff;
+  color: white;
+}
+
+.update-btn, .delete-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.update-btn {
+  background-color: #28a745;
+}
+
+.update-btn:hover {
+  background-color: #218838;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #a71d2a;
+}
+.admin-title {
+  flex: 1;
+  text-align: left; /* Align the text to the left */
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  margin-left: 50px; /* Move it towards the left */
+}

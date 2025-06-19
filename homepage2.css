@@ -1,0 +1,246 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #141e30, #243b55);
+    color: #fff;
+    padding-bottom: 80px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(40, 39, 39, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.main-content {
+    flex-grow: 1;
+    margin-bottom: 50px; /* Adds gap between content and footer */
+}
+
+
+.logo {
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.part1 {
+    color: blue; 
+}
+
+.part2 {
+    color: red; 
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: orange;
+}
+
+.user-icon {
+    font-size: 24px;
+}
+
+.hero {
+    text-align: center;
+    padding: 150px 20px 150px;
+    margin-top: 80px; /* To prevent header overlap */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background: red;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: orange;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin-top: 20px; /* Ensure it isn't stuck to the hero section */
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.contact-info div {
+    text-align: center;
+}
+
+.contact-info i {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.contact-info i:hover {
+    color: orange;
+}
+
+#contact .social-links a {
+    color: white;
+    font-size: 2rem;
+    margin: 10px;
+    transition: color 0.3s;
+}
+
+#contact .social-links a:hover {
+    color: orange;
+}
+
+#contact button {
+    background: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#contact button:hover {
+    background: orange;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(40, 39, 39, 0.8);
+    width: 100%;
+}
+
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        font-size: 0.8rem;
+    }
+
+    footer p {
+        
+        font-size: 0.8rem;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.logout-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.logout-btn:hover {
+    background: #cc0000;
+}
